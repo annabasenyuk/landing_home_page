@@ -2,9 +2,11 @@
   "name": "landing_home_page",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://annabasenyuk.github.io/landing_home_page/",
   "scripts": {
     "dev": "vite",
-    "deploy": "./deploy.sh",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -18,6 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "gh-pages": "^6.1.1",
     "vite": "^4.0.0",
     "vite-svg-loader": "^5.1.0"
   }
