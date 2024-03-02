@@ -4,7 +4,7 @@ import svgLoader from 'vite-svg-loader'
 import { resolve } from 'path';
 
 export default defineConfig({
-  base: '/landing_home_page/',
+  base: 'https://annabasenyuk.github.io/landing_home_page/',
   plugins: [
     vue(),
     svgLoader()
