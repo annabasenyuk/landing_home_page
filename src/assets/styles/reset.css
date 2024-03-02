@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'SuisseIntl-Regular';
+  src: url('@/assets/fonts/SuisseIntl-Regular.woff') format('woff'),
+       url('@/assets/fonts/SuisseIntl-Regular.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'SuisseIntl-Regular', sans-serif;
+  color: #101820;
+}
+
+
+html, 
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
