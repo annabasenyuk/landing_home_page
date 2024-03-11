@@ -1,6 +1,6 @@
 # landing_home_page
 
-[DEMO LINK](https://annabasenyuk.github.io/landing_home_page/)
+
 
 
 This project is a landing page built with Vue 3, showcasing a digital marketing agency's services and features. It includes animations, dynamic content, and responsive design.
